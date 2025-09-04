@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+plotly
+networkx
+requests
+sqlalchemy
+scikit-learn
+loguru
+boto3
+google-cloud-bigquery
+azure-identity
+azure-storage-blob
