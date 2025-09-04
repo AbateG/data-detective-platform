@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Detective Platform - Interactive Data Analytics</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin: 20px auto;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .highlight {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        .modules {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .module {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        .module h3 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .tech-stack {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .tech-stack h3 {
+            margin-top: 0;
+            text-align: center;
+        }
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .tech-tag {
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #e74c3c;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 1.2em;
+            text-align: center;
+            margin: 30px auto;
+            display: block;
+            width: fit-content;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #c0392b;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        .github-link {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .github-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔍 Data Detective Platform</h1>
+        <p class="subtitle">Interactive Data Analytics & Intelligence Suite</p>
+
+        <div class="highlight">
+            <strong>🚀 Live Demo:</strong> Experience the full platform with interactive modules, real-time data analysis, and professional-grade visualizations.
+        </div>
+
+        <h2>🎯 What It Does</h2>
+        <p>A comprehensive data analytics platform featuring 6 specialized modules for end-to-end data investigation, quality assurance, and intelligent insights.</p>
+
+        <div class="modules">
+            <div class="module">
+                <h3>🔄 Data Flow Mapper</h3>
+                <p>Visualize data pipelines, detect bottlenecks, and parse SQL queries into interactive flow graphs.</p>
+            </div>
+            <div class="module">
+                <h3>✅ Sanity Checker</h3>
+                <p>Automated data quality validation: duplicates, outliers, schema drift, and comprehensive reporting.</p>
+            </div>
+            <div class="module">
+                <h3>🌐 API & Log Explorer</h3>
+                <p>Live API endpoint testing and intelligent log anomaly detection with pattern recognition.</p>
+            </div>
+            <div class="module">
+                <h3>📊 Anomaly Detection Lab</h3>
+                <p>Advanced ML-powered anomaly detection with explainability and time-series analysis.</p>
+            </div>
+            <div class="module">
+                <h3>🎮 Challenge Mode</h3>
+                <p>Gamified data investigation with progressive challenges, scoring, and achievement system.</p>
+            </div>
+            <div class="module">
+                <h3>☁️ Cloud Integration</h3>
+                <p>Simulated cloud data operations (AWS/GCP/Azure) with ingestion patterns and sync capabilities.</p>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <h3>🛠️ Technology Stack</h3>
+            <div class="tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">Plotly</span>
+                <span class="tech-tag">NetworkX</span>
+                <span class="tech-tag">SQL</span>
+            </div>
+        </div>
+
+        <a href="https://data-detective-platform.streamlit.app/" class="cta-button" target="_blank">
+            🚀 Launch Interactive Demo
+        </a>
+
+        <div class="footer">
+            <p>
+                Built with ❤️ using AI-assisted development<br>
+                <a href="https://github.com/AbateG/data-detective-platform" class="github-link" target="_blank">
+                    📂 View Source Code on GitHub
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
