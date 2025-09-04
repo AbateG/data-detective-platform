@@ -1,0 +1,16 @@
+timestamp,level,message,ip,user_agent
+2023-09-01 10:15:23,INFO,User login successful,192.168.1.100,Mozilla/5.0
+2023-09-01 10:16:45,WARNING,Invalid password attempt,192.168.1.101,Chrome/91.0
+2023-09-01 10:17:12,INFO,Data export completed,192.168.1.102,Safari/14.0
+2023-09-01 10:18:33,ERROR,Database connection failed,192.168.1.100,Mozilla/5.0
+2023-09-01 10:19:01,INFO,API request processed,192.168.1.103,Postman/9.0
+2023-09-01 10:20:15,WARNING,Rate limit exceeded,192.168.1.101,Chrome/91.0
+2023-09-01 10:21:30,INFO,File upload successful,192.168.1.104,Firefox/89.0
+2023-09-01 10:22:45,ERROR,Authentication failed,192.168.1.105,Edge/91.0
+2023-09-01 10:23:12,INFO,Report generated,192.168.1.102,Safari/14.0
+2023-09-01 10:24:28,WARNING,Suspicious activity detected,192.168.1.106,Unknown
+2023-09-01 10:25:01,INFO,Cache cleared,192.168.1.100,Mozilla/5.0
+2023-09-01 10:26:15,ERROR,Service unavailable,192.168.1.107,Chrome/91.0
+2023-09-01 10:27:30,INFO,Backup completed,192.168.1.103,Postman/9.0
+2023-09-01 10:28:45,WARNING,High memory usage,192.168.1.104,Firefox/89.0
+2023-09-01 10:29:12,INFO,User logout,192.168.1.101,Chrome/91.0

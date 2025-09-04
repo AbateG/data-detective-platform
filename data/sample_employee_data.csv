@@ -1,0 +1,21 @@
+id,name,age,city,salary,department
+1,Alice Johnson,28,New York,75000,Engineering
+2,Bob Smith,34,Los Angeles,68000,Sales
+3,Charlie Brown,41,Chicago,82000,Marketing
+4,David Wilson,29,Houston,71000,Engineering
+5,Eve Davis,36,Phoenix,79000,HR
+6,Frank Miller,33,Philadelphia,66000,Sales
+7,Grace Lee,27,San Antonio,73000,Engineering
+8,Henry Taylor,45,Las Vegas,88000,Marketing
+9,Ivy Chen,31,San Diego,77000,HR
+10,Jack Anderson,38,Dallas,81000,Sales
+11,Kate Thomas,26,Austin,69000,Engineering
+12,Leo Garcia,42,Seattle,85000,Marketing
+13,Mia Rodriguez,30,Denver,72000,HR
+14,Noah Martinez,35,Portland,74000,Sales
+15,Olivia White,29,Miami,70000,Engineering
+16,Peter Harris,40,Atlanta,86000,Marketing
+17,Quinn Clark,32,Boston,78000,HR
+18,Ryan Lewis,37,Detroit,80000,Sales
+19,Sarah Walker,28,Nashville,68000,Engineering
+20,Tom Hall,44,Oklahoma City,90000,Marketing
