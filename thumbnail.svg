@@ -1,4 +1,6 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Data Detective Platform - Interactive Data Analytics Suite</title>
+  <desc id="desc">Promotional cover image showing project title, key features, technology stack, magnifying glass graphic, and call to action to try the live demo.</desc>
   <!-- Background gradient -->
   <defs>
     <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -16,96 +18,74 @@
 
   <!-- Background -->
   <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <!-- Subtle pattern overlay (non-intrusive) -->
+  <g opacity="0.08">
+    <circle cx="200" cy="120" r="70" fill="#ffffff"/>
+    <circle cx="1040" cy="520" r="90" fill="#ffffff"/>
+  </g>
 
   <!-- Main card -->
-  <rect x="60" y="60" width="1080" height="510" rx="20" fill="url(#cardGradient)" filter="url(#shadow)"/>
+  <rect x="60" y="60" width="1080" height="510" rx="22" fill="url(#cardGradient)" filter="url(#shadow)"/>
 
   <!-- Header section -->
-  <text x="120" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#2c3e50">
-    🔍 Data Detective Platform
-  </text>
-
-  <text x="120" y="180" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d">
-    Interactive Data Analytics & Intelligence Suite
-  </text>
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <text x="120" y="138" font-size="50" font-weight="700" fill="#2c3e50">🔍 Data Detective Platform</text>
+    <text x="120" y="178" font-size="24" fill="#5f6f7a" letter-spacing="0.5">Interactive Data Analytics &amp; Intelligence Suite</text>
+  </g>
 
   <!-- Main visual - Magnifying glass with data elements -->
-  <g transform="translate(700, 200)">
-    <!-- Magnifying glass handle -->
-    <rect x="15" y="80" width="8" height="60" rx="4" fill="#3498db"/>
-    <!-- Magnifying glass circle -->
-    <circle cx="50" cy="50" r="45" fill="none" stroke="#3498db" stroke-width="6"/>
-    <!-- Magnifying glass handle connection -->
-    <circle cx="50" cy="50" r="35" fill="none" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
-    <!-- Data points inside magnifying glass -->
-    <circle cx="35" cy="35" r="3" fill="#e74c3c"/>
-    <circle cx="65" cy="40" r="3" fill="#27ae60"/>
-    <circle cx="45" cy="65" r="3" fill="#f39c12"/>
-    <circle cx="70" cy="70" r="3" fill="#9b59b6"/>
-    <!-- Connection lines -->
-    <line x1="35" y1="35" x2="65" y2="40" stroke="#34495e" stroke-width="2"/>
-    <line x1="65" y1="40" x2="45" y2="65" stroke="#34495e" stroke-width="2"/>
-    <line x1="45" y1="65" x2="70" y2="70" stroke="#34495e" stroke-width="2"/>
+  <g transform="translate(720, 205) scale(1.05)" aria-label="Data exploration graphic">
+    <!-- Shadow ellipse -->
+    <ellipse cx="50" cy="150" rx="46" ry="10" fill="#000" opacity="0.08"/>
+    <!-- Handle -->
+    <rect x="15" y="80" width="10" height="68" rx="5" fill="#1f78d1"/>
+    <!-- Outer ring -->
+    <circle cx="50" cy="50" r="48" fill="rgba(255,255,255,0.6)" stroke="#1f78d1" stroke-width="6"/>
+    <!-- Inner ring -->
+    <circle cx="50" cy="50" r="36" fill="none" stroke="#1f78d1" stroke-width="3" stroke-dasharray="6 6"/>
+    <!-- Data points -->
+    <g stroke="#1d2731" stroke-width="1.2">
+      <circle cx="34" cy="34" r="5" fill="#ff5d4d"/>
+      <circle cx="66" cy="42" r="5" fill="#2ecc71"/>
+      <circle cx="44" cy="66" r="5" fill="#f5b041"/>
+      <circle cx="72" cy="72" r="5" fill="#9b59b6"/>
+    </g>
+    <!-- Connections -->
+    <path d="M34 34 L66 42 L44 66 L72 72" fill="none" stroke="#2c3e50" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <!-- Feature highlights -->
-  <g transform="translate(120, 250)">
-    <text font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
-      🚀 Key Features:
-    </text>
-
-    <text x="0" y="40" font-family="Arial, sans-serif" font-size="16" fill="#34495e">
-      • 6 Interactive Modules: Flow Mapping, Sanity Checking, API Testing
-    </text>
-    <text x="0" y="65" font-family="Arial, sans-serif" font-size="16" fill="#34495e">
-      • ML-Powered Anomaly Detection & Time Series Analysis
-    </text>
-    <text x="0" y="90" font-family="Arial, sans-serif" font-size="16" fill="#34495e">
-      • Gamified Challenge Mode with Scoring System
-    </text>
-    <text x="0" y="115" font-family="Arial, sans-serif" font-size="16" fill="#34495e">
-      • Cloud Integration Simulation (AWS/GCP/Azure)
-    </text>
+  <g transform="translate(120, 250)" font-family="'Segoe UI', Arial, sans-serif" fill="#22313f">
+    <text font-size="22" font-weight="600">🚀 Key Features</text>
+    <g font-size="16" opacity="0.92">
+      <text x="0" y="42">• 6 interactive modules (flows, quality, API, ML)</text>
+      <text x="0" y="68">• Anomaly detection (classical + time series)</text>
+      <text x="0" y="94">• Gamified challenge &amp; achievement system</text>
+      <text x="0" y="120">• Simulated multi-cloud ingestion patterns</text>
+    </g>
   </g>
 
   <!-- Tech stack badges -->
-  <g transform="translate(120, 400)">
-    <text font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">
-      🛠️ Built with:
-    </text>
-
-    <!-- Tech badges -->
-    <rect x="0" y="20" width="80" height="25" rx="12" fill="#3498db"/>
-    <text x="40" y="36" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Python</text>
-
-    <rect x="90" y="20" width="85" height="25" rx="12" fill="#e74c3c"/>
-    <text x="132" y="36" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Streamlit</text>
-
-    <rect x="185" y="20" width="75" height="25" rx="12" fill="#27ae60"/>
-    <text x="222" y="36" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Pandas</text>
-
-    <rect x="270" y="20" width="70" height="25" rx="12" fill="#f39c12"/>
-    <text x="305" y="36" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Plotly</text>
-
-    <rect x="350" y="20" width="90" height="25" rx="12" fill="#9b59b6"/>
-    <text x="395" y="36" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">Scikit-learn</text>
+  <g transform="translate(120, 400)" font-family="'Segoe UI', Arial, sans-serif">
+    <text font-size="19" font-weight="600" fill="#2c3e50">🛠️ Built With</text>
+    <g font-size="13" font-weight="600" fill="white" text-anchor="middle">
+      <g transform="translate(0,20)"><rect x="0" y="0" width="86" height="30" rx="15" fill="#2563eb"/><text x="43" y="20">Python</text></g>
+      <g transform="translate(100,20)"><rect x="0" y="0" width="92" height="30" rx="15" fill="#e74c3c"/><text x="46" y="20">Streamlit</text></g>
+      <g transform="translate(205,20)"><rect x="0" y="0" width="86" height="30" rx="15" fill="#16a34a"/><text x="43" y="20">Pandas</text></g>
+      <g transform="translate(310,20)"><rect x="0" y="0" width="78" height="30" rx="15" fill="#f59e0b"/><text x="39" y="20">Plotly</text></g>
+      <g transform="translate(395,20)"><rect x="0" y="0" width="118" height="30" rx="15" fill="#8b5cf6"/><text x="59" y="20">Scikit-learn</text></g>
+    </g>
   </g>
 
   <!-- Call to action -->
-  <g transform="translate(120, 470)">
-    <rect x="0" y="0" width="200" height="40" rx="20" fill="#e74c3c"/>
-    <text x="100" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">
-      🚀 Try Live Demo
-    </text>
+  <g transform="translate(120, 470)" font-family="'Segoe UI', Arial, sans-serif" aria-label="Launch live demo button">
+    <rect x="0" y="0" width="240" height="54" rx="28" fill="#e53935"/>
+    <text x="120" y="34" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">🚀 Try Live Demo</text>
   </g>
 
   <!-- Footer -->
-  <text x="120" y="580" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">
-    Interactive Data Analytics Platform | Built with AI-Assisted Development
-  </text>
-
-  <!-- GitHub link -->
-  <text x="120" y="600" font-family="Arial, sans-serif" font-size="14" fill="#3498db">
-    github.com/AbateG/data-detective-platform
-  </text>
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="14">
+    <text x="120" y="580" fill="#5f6f7a">Interactive Data Analytics Platform · AI-Assisted Build</text>
+    <text x="120" y="600" fill="#2563eb">github.com/AbateG/data-detective-platform</text>
+  </g>
 </svg>
